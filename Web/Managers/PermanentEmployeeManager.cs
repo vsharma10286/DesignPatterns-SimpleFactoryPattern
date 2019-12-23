@@ -16,5 +16,10 @@ namespace Web.Managers
         {
             return 8;
         }
+
+        public decimal GetHouseAllowance()
+        {
+            return 150;
+        }
     }
 }

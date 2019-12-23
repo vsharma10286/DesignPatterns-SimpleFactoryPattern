@@ -16,5 +16,10 @@ namespace Web.Managers
         {
             return 5;
         }
+
+        public decimal GetMedicalAllowance()
+        {
+            return 100;
+        }
     }
 }

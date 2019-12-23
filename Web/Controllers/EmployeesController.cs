@@ -7,8 +7,9 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Web.Models;
-using Web.Factory;
+using Web.Factory.FactoryMethod;
 using Web.Managers;
+
 
 namespace Web.Controllers
 {
@@ -54,23 +55,17 @@ namespace Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                //if (employee.EmployeeTypeID == 1)
-                //{
-                //    employee.HourlyPay = 8;
-                //    employee.Bonus = 10;
-                //}
-                //else if (employee.EmployeeTypeID == 2)
-                //{
-                //    employee.HourlyPay = 12;
-                //    employee.Bonus = 5;
-                //}
-
-                EmployeeManagerFactory empFactory = new EmployeeManagerFactory();
-                IEmployeeManager empManager = empFactory.GetEmployeeManager(employee.EmployeeTypeID);
-                employee.Bonus = empManager.GetBonus();
-                employee.HourlyPay = empManager.GetPay();
 
 
+                //EmployeeManagerFactory empFactory = new EmployeeManagerFactory();
+                //IEmployeeManager empManager = empFactory.GetEmployeeManager(employee.EmployeeTypeID);
+                //employee.Bonus = empManager.GetBonus();
+                //employee.HourlyPay = empManager.GetPay();
+
+
+                BaseEmployeeFactory empFactory = new EmployeeManagerFactory().CreateFactory(employee);
+                empFactory.ApplySalary();              
+                
                 db.Employees.Add(employee);
                 db.SaveChanges();
                 return RedirectToAction("Index");

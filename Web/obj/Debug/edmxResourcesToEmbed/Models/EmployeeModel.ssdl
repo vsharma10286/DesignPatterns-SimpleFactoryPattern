@@ -12,6 +12,8 @@
     <Property Name="HourlyPay" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="Bonus" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="EmployeeTypeID" Type="int" Nullable="false" />
+    <Property Name="HouseAllowance" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="MedicalAllowance" Type="decimal" Precision="18" Scale="0" />
   </EntityType>
   <EntityType Name="Employee_Type">
     <Key>

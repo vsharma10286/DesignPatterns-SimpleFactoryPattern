@@ -1,5 +1,4 @@
 E:\Projects\TestSkills\DesignPatterns\EmployeePortal\Logger\bin\Debug\Logger.dll
 E:\Projects\TestSkills\DesignPatterns\EmployeePortal\Logger\bin\Debug\Logger.pdb
-E:\Projects\TestSkills\DesignPatterns\EmployeePortal\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
 E:\Projects\TestSkills\DesignPatterns\EmployeePortal\Logger\obj\Debug\Logger.dll
 E:\Projects\TestSkills\DesignPatterns\EmployeePortal\Logger\obj\Debug\Logger.pdb
