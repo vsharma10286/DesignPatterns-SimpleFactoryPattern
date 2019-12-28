@@ -1,0 +1,6 @@
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\bin\Debug\SingletonDemo-1.exe.config
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\bin\Debug\SingletonDemo-1.exe
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\bin\Debug\SingletonDemo-1.pdb
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\obj\Debug\SingletonDemo-1.csprojResolveAssemblyReference.cache
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\obj\Debug\SingletonDemo-1.exe
+E:\Projects\TestSkills\DesignPatterns\SingletonDemo-1\SingletonDemo-1\obj\Debug\SingletonDemo-1.pdb
