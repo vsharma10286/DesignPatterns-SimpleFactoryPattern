@@ -31,8 +31,9 @@ namespace StrategyPattern
                     case "3":
                         weapon = new Club();
                         break;
-                    //default:
-                    //    break;
+                    default:
+                        weapon = new Null();
+                        break;
                 }
 
                 Varun.SetWeapon(weapon);
